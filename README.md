@@ -12,6 +12,6 @@ The initial source code was not accessible and had a lot of repeated code. In ot
 After going through and refactoring the source code, it's easier to be more mindful of tagging and naming them the first go around.
 
 ## Notes
-As a note, I added IDs to the different pieces in the sections. They are currently not being used but could be useful in the future and coule potentially be removed as of now.
-
 Not necessarily an accessibilty master just yet, but practice makes perfect!...or something close to that 🏆
+
+![Homepage Screenshot](/assets/images/Homepage-screenshot.PNG)
