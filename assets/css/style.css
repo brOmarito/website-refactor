@@ -4,27 +4,32 @@
     margin: 0;
 }
 
+/* Establishes sites overall font/background color and font size */
 body {
     background-color: #d9dcd6;
     color: #ffffff;
     font-size: 20px;
 }
 
+/* General formatting for the header/navbar */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
 }
 
+/* Site title formatting */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Formatting for special section of the title */
 .seo {
     color: #d9dcd6;
 }
 
+/* Formatting for navbar links */
 .nav-items {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,20 +38,24 @@ header h1 {
     list-style-type: none;
 }
 
+/* Navbar items to format them in the same line */
 .nav-items li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Formatting to override default link format */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Setting paragrah font size */
 p {
     font-size: 16px;
 }
 
+/* Formatting for the image */
 .hero {
     height: 800px;
     width: 100%;
@@ -54,22 +63,26 @@ p {
     object-fit: cover;
 }
 
+/* Used to set image float */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Used to set image float */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Formatting shared across main content section */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Formatting for benefits section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -81,22 +94,26 @@ p {
     background-color: #2589bd;
 }
 
+/* Margin setting for the content pieces inside benefits section */
 .benefit-content {
     margin-bottom: 32px;
 }
 
+/* Benefits content header formatting */
 .benefit-content h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Formatting for images in benefits section */
 .benefit-content img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.content-section {
+/* Formatting for cards in main content section */
+.content-card {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -104,15 +121,18 @@ p {
     background-color: #0072bb;
 }
 
-.content-section img {
+/* Formatting for images in main content cards */
+.content-card img {
     max-height: 200px;
 }
 
-.content-section h2 {
+/* Formatting for headers in main content cards */
+.content-card h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Formatting for footer */
 footer {
     padding: 30px;
     clear: both;
@@ -121,6 +141,7 @@ footer {
     color: black;
 }
 
+/* Formatting to override default h2 size */
 footer h2 {
     font-size: 20px;
 }
